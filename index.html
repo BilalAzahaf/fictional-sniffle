@@ -1,0 +1,68 @@
+<!-- nothing here -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website Bilal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <nav>
+        <ul class="navigbar">
+            <li><a href="pages/project.html">Toekomst</a></li>
+            <li><a href="pages/about.html">Mijn leven</a></li>
+            <li><a class="active" href="#">Home</a></li>
+
+            <li class="giant"><a>Bilal Azahaf</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        
+        <h1>Ik ben Bilal Azahaf</h1>
+
+        <p class="introduct">Ik ben een student van Erasmushogeschool 
+          en heb een passie voor grafisch designen. Ik geloof in de kracht van 
+          samenwerking om positieve verandering teweeg te brengen. In mijn vrije tijd geniet ik ervan 
+          om te gaan joggen. 
+          In de navigatie vind u meer over me als persoon zowel professioneel als persoonlijk.</p>
+
+        <img src="images/Bilal.jpg">
+
+        <button class="My"><a href="pages/about.html">Mijn leven</a></button>
+        <button class="Fut"><a href="pages/project.html">Toekomst</a></button>
+
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
+</body>
+
+</html>

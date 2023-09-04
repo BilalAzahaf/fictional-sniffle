@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.navigbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    color: white;
+    z-index: 1;
+}
+
+.navigbar li {
+    float: right;
+}
+
+.navigbar li a {
+    color: #0a0a0a;
+    display: block;
+    padding: 30px 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigbar .giant {
+    float: left;
+}
+
+.navigbar .giant a {
+    font-size: 30px;
+    padding: 20px 40px;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, minmax(100px, auto));
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.wrapper .port {
+    text-align: center;
+    grid-column: 3 / 11;
+}
+
+.wrapper .bilal {
+    grid-row: 2 / 10;
+}
+
+.wrapper .intro {
+    grid-column: 4 / 10;
+    text-align: center;
+    color: #0a0a0a;
+    grid-row: 3 / 6;
+    font-size: 20px;
+}
+
+.wrapper .exp {
+    grid-column: 5 / 9;
+    text-align: center;
+    grid-row: 2 / 3;
+}
+
+.wrapper h1 {
+    color:  #0a0a0a;
+    grid-column: 1 / 8;
+    grid-row: 3 / 5;
+    font-size: 55px;
+}
+
+.wrapper img {
+    grid-column: 7 / 13;
+    grid-row: 2 / 8;
+    width: 100%;
+    transform: scaleX(-1);
+    border: 1px solid #d9d9d9;
+}
+
+.wrapper p {
+    grid-column: 1 / 8;
+    grid-row: 10 / 11;
+    color: white;
+    font-size: 26px;
+}
+
+.wrapper .introduct {
+    color: #0a0a0a;
+    grid-row: 4 / 6;
+    font-size: 20px;
+    grid-column: 1 / 6;
+}
+
+.wrapper .My {
+    grid-row: 6 / 7;
+    grid-column: 1 / 3;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.wrapper .Fut {
+    grid-row: 6 / 7;
+    grid-column: 4 / 6;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.wrapper button {
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    grid-row: 11 / 12;
+    grid-column: 1 / 3;
+    height: 50%;
+}
+
+.wrapper button a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.information {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+}
+
+.blacktho {
+    background-color: #0a0a0a;
+}
+
+.blacktho p {
+    color: white;
+}
+
+.information h1 {
+    color:  black;
+    grid-column: 4 / 10;
+    grid-row: 2 / 3;
+    font-size: 39px;
+    text-align: center;
+}
+
+.blacktho h1 {
+    color: white;
+    grid-row: 1 / 2;
+}
+
+.blacktho p:nth-child(2) {
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+    font-size: 24px;
+}
+
+.blacktho p:nth-child(3) {
+    grid-row: 2 / 3;
+    grid-column: 5 / 9;
+    font-size: 24px;
+}
+
+.blacktho p:nth-child(4) {
+    grid-row: 2 / 3;
+    grid-column: 10 / 13;
+    font-size: 24px;
+}
+
+.information button {
+    border-radius: 40px;
+    background-color: #0a0a0a;
+    border: none;
+    grid-row: 3 / 4;
+    grid-column: 6 / 8;
+    height: 50%;
+}
+
+.information button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.addition {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #0a0a0a;
+}
+
+.addition h1 {
+    color:  white;
+    grid-column: 4 / 10;
+    grid-row: 2 / 3;
+    font-size: 55px;
+    text-align: center;
+}
+
+.addition button {
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    grid-row: 3 / 4;
+    grid-column: 6 / 8;
+    height: 50%;
+}
+
+.addition button a {
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #0a0a0a;
+    padding-top: 40px;
+}
+
+footer a {
+    color: white;
+    font-size: 30px;
+}
+
+footer a:nth-child(1) {
+    grid-row: 1 / 2;
+}
+
+footer a:nth-child(2) {
+    grid-row: 2 / 3;
+}
+
+footer a:nth-child(3) {
+    grid-row: 3 / 4;
+}
+
+footer p:nth-child(4) {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    color: white;
+    text-align: end;
+}
+
+.navigbar li .active {
+    font-weight: 600;
+}
+
+.topnav {
+    display: none;
+}
